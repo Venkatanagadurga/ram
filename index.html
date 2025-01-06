@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OY</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: white;
+            overflow: hidden;
+            
+        }
+
+        .page {
+            display: none;
+            width: 100vw;
+            height: 100vh;
+            position: relative;
+            text-align: center;
+            background-size: cover;
+            background-position: center;
+        
+        }
+
+        .active {
+            display: block;
+        }
+
+        #landing {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('photo1.jpg') no-repeat center center;
+            background-image: url(rk.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+
+        #quotes {
+            background: linear-gradient(rgba(185, 29, 29, 0.5), rgba(0, 0, 0, 0.5)), url('photo2.jpg') no-repeat center center;
+            color: black;
+        }
+
+        .content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 80%;
+        }
+    
+
+        .button {
+            padding: 15px 30px;
+            font-size: 18px;
+            background: black;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 20px;
+            text-transform: uppercase;
+        }
+
+        .button:hover {
+            background: blue;
+        }
+
+        .quote {
+            font-size: 1.5em;
+            margin: 20px 0;
+        }
+
+        #back-btn {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            padding: 10px 20px;
+            background: #03a9f4;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            background-image: url(rk.jpg);
+            cursor: pointer;
+        }
+
+        #back-btn:hover {
+            background: black;
+        }
+    </style>
+</head>
+<body>
+    <!-- Landing Page -->
+    <div id="landing" class="page active">
+        <div class="content">
+            <h1>MY SPECIAL PERSON</h1>
+            <div id="slideshow">
+
+               <center><img src="og.jpg" alt="og 1" style="width: 30%; max-height: 500px; display: block;">
+                <img src="pick.jpg" alt="pick 2" style="width: 30%; max-height: 500px; display: none;">
+                <img src="sql.jpg" alt="pick 2" style="width: 30%; max-height: 500px; display: none;">
+                <img src="remote.jpg" alt="pick 2" style="width: 30%; max-height: 500px; display: none;">
+                <img src="box.jpg" alt="pick 2" style="width: 30%; max-height: 500px; display: none;">
+                <img src="chair.jpg" alt="pick 2" style="width: 30%; max-height: 500px; display: none;">
+
+                
+               </center>
+                <audio id="landing-music" src="NaaNaa Hyraanaa Ringtone Download - MobCup.Com.Co.mp3" loop autoplay></audio>
+
+            </div>
+            <button id="surprise-btn" class="button">HELLO SIR</button>
+        </div>
+        <audio id="landing-music" src="music1.mp3" loop autoplay></audio>
+    </div>
+
+    <!-- Quotes Page -->
+    <div id="quotes" class="page">
+        <button id="back-btn">Go Back</button>
+        <div class="content">
+           <h1>JAN7 ni bday anta ga<br>
+            <i>wish you many happy returns of the day MOHAMMAD RAFI....</i></h1>
+            2019 nov1....<br>
+            December 12 starts our journey.....</h1>
+            <h3>Ee four years lo prathi new year ki oka vintha jaraguthu vachindhi oy
+            college lo oka groupism naduputhu baganey veshayalu vesthavu undey vadivi chusey vallaki nuvuu innocent rafi naku kadu Ley Kani oy evaru entha mandi em chesina college lo mana bond anthey unbreakable</h3>
+               <b>NAKU SURGERY ANTEY NA KOSAM HOSPITAL KI VACHAVU CHUDU... & malli intiki .... </b><br>
+          <h3>Nitho una happiness iyna sadness iyna ee four years nitho ney na journey motham undi whatever nitho ee journey lo nenu happy<br>
+            next moment em untundhi em avuthundhoo kuda naku theliyadu oy nitho spend chesina prathi moment naku oka memorable ga untundi na life lo
+            Chala promises lu chesavu... PROMISE ni break cheyadhu oy na life lo evarini nammaledu ninnu thappa</h3>
+               <h3><b>Naku okati nachadu nuvu EDAVADAM ni eyes lo tears chusthey ney na valla kadu naku nachanadhi nuvu cheyavu anukuntuna cheyavu ley naku thelusu ni gurinchi</b>
+                nannu oka chinna pillala laga chusukuntu vachavu na koppam na godava ani brasthu vachavu daniki thanks cheppatha anukunavu asalu cheppanu oka na </h3>
+                <h3>NITHO ADUKOVADAM CHALA ISTAM NINNU kadalinchadam ela chesthu nenu happy ga feel avatha
+                <b>NUVU OKA GOOD POSITION LO UNDALI ANUKUNTU NI DURGA</b></h3>
+                <b>NA RAFI AND PANDU APPUDU HAPPY GA UNDALI ANI KORUKUNTU NI KOTHI CRE  OY</b>
+                <h3>Promise chesavu bad habits vaddu asalu family ni baga chusuko na rafi oka range lo undali
+                Enka chala undi rayadanaki webpage saripovadam ledu naku ravadam ledu anthey ley ni gurinchi pages eni iyna saripovu</h3>
+                <h2>Ee Birthday neeku success evali anukuntu ee birthday OKATI NI KADU prathi year bday nuvu happy ga undali <i>ONCE AGAIN HAPPY BIRTHDAY OY...</i></h2>
+                <h2>NAVVA na okasari vaddu ley antava OY CRE OY</h2>
+
+            <div class="quote">Wishing you a day filled with love and laughter and success"
+              <a href="surprise.html"><button>Done</button></a>
+            </div>
+
+        </div>
+    
+        
+
+
+        <audio id="quotes-music" src="Amaran Flute.mp3" loop autoplay></audio>
+    </div>
+
+    <script>
+        // Elements
+        const landingPage = document.getElementById('landing');
+        const quotesPage = document.getElementById('quotes');
+        const surpriseBtn = document.getElementById('surprise-btn');
+        const backBtn = document.getElementById('back-btn');
+        const slideshowImages = document.querySelectorAll('#slideshow img');
+        const landingMusic = document.getElementById('landing-music');
+        const quotesMusic = document.getElementById('quotes-music');
+
+        let currentSlide = 0;
+
+        // Slideshow Logic
+        setInterval(() => {
+            slideshowImages[currentSlide].style.display = 'none';
+            currentSlide = (currentSlide + 1) % slideshowImages.length;
+            slideshowImages[currentSlide].style.display = 'block';
+        }, 3000);
+
+        // Navigation Logic
+        surpriseBtn.addEventListener('click', () => {
+            landingPage.classList.remove('active');
+            quotesPage.classList.add('active');
+            landingMusic.pause();
+            quotesMusic.play();
+        });
+
+        backBtn.addEventListener('click', () => {
+            quotesPage.classList.remove('active');
+            landingPage.classList.add('active');
+            quotesMusic.pause();
+            landingMusic.play();
+        });
+    </script>
+</body>
+</html> 
